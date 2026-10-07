@@ -1,0 +1,121 @@
+{
+  "repositories": [
+    {
+      "repository": "openai/plugins",
+      "skills": [
+        {
+          "id": "jupyter-notebooks",
+          "name": "可复现 Notebook",
+          "category": "data",
+          "summary": "创建、整理和运行可复现的 Python/SQL Notebook，保留分析过程与核验记录。",
+          "dependencies": "Python/SQL 环境；nbformat、nbclient 或 Jupyter；宿主工具按工作流配置。",
+          "path": "plugins/data-analytics/skills/jupyter-notebooks/SKILL.md",
+          "frontmatter_name": "jupyter-notebooks"
+        },
+        {
+          "id": "analyze-data-quality",
+          "name": "数据质量检查",
+          "category": "data",
+          "summary": "核查缺失、重复、粒度与来源冲突，判断数据是否足以支持研究结论。",
+          "dependencies": "可读取的数据或查询结果；Python/SQL；可配合 jupyter-notebooks。",
+          "path": "plugins/data-analytics/skills/analyze-data-quality/SKILL.md",
+          "frontmatter_name": "analyze-data-quality"
+        },
+        {
+          "id": "validate-data",
+          "name": "分析结果核验",
+          "category": "data",
+          "summary": "逐项检查方法、计算、图表和结论是否被输入证据支持。",
+          "dependencies": "已有分析、原始来源与方法说明；与数据质量检查配合。",
+          "path": "plugins/data-analytics/skills/validate-data/SKILL.md",
+          "frontmatter_name": "validate-data"
+        },
+        {
+          "id": "visualize-data",
+          "name": "数据可视化",
+          "category": "figures",
+          "summary": "选择图形与尺度，制作并审查能够清楚表达定量证据的图表。",
+          "dependencies": "数据及变量口径；绘图库；部分输出路径依赖宿主能力。",
+          "path": "plugins/data-analytics/skills/visualize-data/SKILL.md",
+          "frontmatter_name": "visualize-data"
+        },
+        {
+          "id": "build-report",
+          "name": "分析报告",
+          "category": "writing",
+          "summary": "把已完成的分析组织成带图表、来源和限制说明的可交付报告。",
+          "dependencies": "已核验分析；宿主报告/文档输出工具；部分流程依赖连接器。",
+          "path": "plugins/data-analytics/skills/build-report/SKILL.md",
+          "frontmatter_name": "build-report"
+        },
+        {
+          "id": "zotero",
+          "name": "Zotero 文献管理",
+          "category": "literature",
+          "summary": "检索本地 Zotero 文献库，导出 BibTeX 并维护论文中的引用键。",
+          "dependencies": "Zotero Desktop 本地 API；Python；导入操作按连接器配置。",
+          "path": "plugins/zotero/skills/zotero/SKILL.md",
+          "frontmatter_name": "Zotero"
+        },
+        {
+          "id": "ncbi-pmc-skill",
+          "name": "PMC 开放获取元数据",
+          "category": "literature",
+          "summary": "查询 PMC 开放获取文章的文件可用性与元数据，整理简洁的检索结果。",
+          "dependencies": "Python 配套脚本；NCBI PMC OA 网络接口。",
+          "path": "plugins/life-science-research/skills/ncbi-pmc-skill/SKILL.md",
+          "frontmatter_name": "ncbi-pmc-skill"
+        }
+      ],
+      "sources": [
+        "https://github.com/openai/plugins"
+      ],
+      "notes": []
+    },
+    {
+      "repository": "anthropics/skills",
+      "skills": [
+        {
+          "id": "pdf",
+          "name": "PDF 阅读与整理",
+          "category": "documents",
+          "summary": "提取论文 PDF 的文字和表格，处理页面并对扫描文档进行 OCR。",
+          "dependencies": "Python PDF 库；OCR/渲染命令行工具按需；专有许可见上游。",
+          "path": "skills/pdf/SKILL.md",
+          "frontmatter_name": "pdf"
+        },
+        {
+          "id": "docx",
+          "name": "Word 论文文档",
+          "category": "documents",
+          "summary": "创建和编辑 Word 稿件，处理样式、批注、修订与文档内容。",
+          "dependencies": "Node.js docx、Pandoc 等按需；专有许可见上游。",
+          "path": "skills/docx/SKILL.md",
+          "frontmatter_name": "docx"
+        },
+        {
+          "id": "pptx",
+          "name": "学术演示文稿",
+          "category": "documents",
+          "summary": "创建、解析和修改演示文稿，整理组会或会议汇报材料。",
+          "dependencies": "Node.js PptxGenJS；配套渲染脚本；专有许可见上游。",
+          "path": "skills/pptx/SKILL.md",
+          "frontmatter_name": "pptx"
+        },
+        {
+          "id": "xlsx",
+          "name": "研究表格",
+          "category": "documents",
+          "summary": "清洗并编辑研究工作簿，维护公式、图表与表格输出。",
+          "dependencies": "Python/表格工具；公式重算环境按需；专有许可见上游。",
+          "path": "skills/xlsx/SKILL.md",
+          "frontmatter_name": "xlsx"
+        }
+      ],
+      "sources": [
+        "https://github.com/anthropics/skills"
+      ],
+      "notes": []
+    }
+  ]
+}

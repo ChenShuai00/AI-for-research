@@ -1,0 +1,218 @@
+{
+  "repositories": [
+    {
+      "repository": "huggingface/skills",
+      "popularity": "established",
+      "stars_display": "11.1k",
+      "default_branch": "main",
+      "license": "Apache-2.0",
+      "skills": [
+        {
+          "id": "hf-cli",
+          "name": "HF Hub CLI",
+          "category": "compute",
+          "summary": "统一管理模型、数据集与云端任务，适合获取实验输入和组织研究资产。",
+          "path": "skills/hf-cli/SKILL.md",
+          "dependencies": "hf CLI；写入与云任务需 HF 账户及相应权限。"
+        },
+        {
+          "id": "hf-mem",
+          "name": "模型显存估算",
+          "category": "compute",
+          "summary": "读取远程权重元数据估算内存需求，帮助选择推理硬件与上下文配置。",
+          "path": "skills/hf-mem/SKILL.md",
+          "dependencies": "uv/uvx；受限或私有模型需 HF_TOKEN；KV cache 估算属实验功能。"
+        },
+        {
+          "id": "huggingface-community-evals",
+          "name": "本地模型评测",
+          "category": "evaluation",
+          "summary": "组织 inspect-ai 或 lighteval 基准评测，并选择本地推理后端。",
+          "path": "skills/huggingface-community-evals/SKILL.md",
+          "dependencies": "uv、inspect-ai/lighteval；本地 GPU 或推理服务；受限模型需令牌。"
+        },
+        {
+          "id": "huggingface-datasets",
+          "name": "数据集浏览与提取",
+          "category": "data",
+          "summary": "查询数据划分、分页记录、筛选条件与 Parquet 文件，支持研究数据探索。",
+          "path": "skills/huggingface-datasets/SKILL.md",
+          "dependencies": "Dataset Viewer HTTP API；受限或私有数据需 HF_TOKEN。"
+        },
+        {
+          "id": "huggingface-llm-trainer",
+          "name": "语言模型云端训练",
+          "category": "training",
+          "summary": "规划 TRL/Unsloth 微调流程，覆盖数据检查、训练方法、算力选择和结果保存。",
+          "path": "skills/huggingface-llm-trainer/SKILL.md",
+          "dependencies": "HF Jobs、TRL/Unsloth、Trackio；Jobs 付费计划与写权限令牌。"
+        },
+        {
+          "id": "huggingface-paper-publisher",
+          "name": "论文与研究资产发布",
+          "category": "writing",
+          "summary": "把 arXiv 论文页面与模型、数据集关联，整理研究成果的引用和元数据。",
+          "path": "skills/huggingface-paper-publisher/SKILL.md",
+          "dependencies": "uv 与配套 Python 脚本；写权限 HF_TOKEN。"
+        },
+        {
+          "id": "huggingface-papers",
+          "name": "HF 论文检索与阅读",
+          "category": "literature",
+          "summary": "读取论文 Markdown 和结构化元数据，并查找关联代码、模型及数据集。",
+          "path": "skills/huggingface-papers/SKILL.md",
+          "dependencies": "HF Papers HTTP API；公开论文页面免认证；部分接口需令牌。"
+        },
+        {
+          "id": "huggingface-trackio",
+          "name": "训练实验记录",
+          "category": "evaluation",
+          "summary": "记录并比较训练指标，展示实验曲线，检索运行状态与诊断告警。",
+          "path": "skills/huggingface-trackio/SKILL.md",
+          "dependencies": "Python trackio 或其 CLI；同步 HF Spaces 时需账户权限。"
+        },
+        {
+          "id": "huggingface-vision-trainer",
+          "name": "视觉模型云端训练",
+          "category": "training",
+          "summary": "组织检测、分类和分割实验，检查图像标注格式并生成训练工作流。",
+          "path": "skills/huggingface-vision-trainer/SKILL.md",
+          "dependencies": "HF Jobs、Transformers 与 Hub 图像数据；付费计划及写权限令牌。"
+        },
+        {
+          "id": "train-sentence-transformers",
+          "name": "检索与嵌入模型训练",
+          "category": "training",
+          "summary": "训练向量检索、重排序与稀疏检索模型，配套损失选择、负例挖掘和评估器。",
+          "path": "skills/train-sentence-transformers/SKILL.md",
+          "dependencies": "sentence-transformers[train] >=5；多向量模型 >=6；GPU 建议；Hub 发布需写令牌。"
+        }
+      ],
+      "sources": [
+        "https://github.com/huggingface/skills",
+        "https://github.com/huggingface/skills/blob/main/skills/hf-cli/SKILL.md",
+        "https://github.com/huggingface/skills/blob/main/skills/hf-mem/SKILL.md",
+        "https://github.com/huggingface/skills/blob/main/skills/huggingface-community-evals/SKILL.md",
+        "https://github.com/huggingface/skills/blob/main/skills/huggingface-datasets/SKILL.md",
+        "https://github.com/huggingface/skills/blob/main/skills/huggingface-llm-trainer/SKILL.md",
+        "https://github.com/huggingface/skills/blob/main/skills/huggingface-paper-publisher/SKILL.md",
+        "https://github.com/huggingface/skills/blob/main/skills/huggingface-papers/SKILL.md",
+        "https://github.com/huggingface/skills/blob/main/skills/huggingface-trackio/SKILL.md",
+        "https://github.com/huggingface/skills/blob/main/skills/huggingface-vision-trainer/SKILL.md",
+        "https://github.com/huggingface/skills/blob/main/skills/train-sentence-transformers/SKILL.md"
+      ],
+      "notes": [
+        "2026-10-07 检索 GitHub 官方首页及逐条 SKILL.md；首页展示 11.1k stars，为近似展示值。",
+        "精选 10 条与研究数据、训练、评估、论文及算力直接相关的技能；没有纳入部署辅助的 AWS 子技能。",
+        "热度证据为仓库级 stars，不能解释为每条 skill 的独立热度。",
+        "仅整理元数据，没有安装技能或运行上游脚本。"
+      ]
+    },
+    {
+      "repository": "VincenzoImp/academic-research-skills",
+      "popularity": "emerging",
+      "stars_display": "3",
+      "default_branch": "main",
+      "license": "MIT",
+      "skills": [
+        {
+          "id": "digest-paper",
+          "name": "单篇论文入库与精读",
+          "category": "literature",
+          "summary": "把单篇论文整理为全文、阅读综合、书目条目和引用关系，维护一致的文献索引。",
+          "path": "skills/digest-paper/SKILL.md",
+          "dependencies": "create-academic-research 目录约定；arxiv MCP 与至少一种书目 MCP；make check。"
+        },
+        {
+          "id": "explore-sota",
+          "name": "研究现状探索",
+          "category": "literature",
+          "summary": "围绕研究范围进行关键词检索、引文追踪、候选筛选和逐篇阅读。",
+          "path": "skills/explore-sota/SKILL.md",
+          "dependencies": "同仓库 digest-paper；arxiv 与书目 MCP；SOTA 队列和索引结构。"
+        },
+        {
+          "id": "package-artifacts",
+          "name": "投稿复现包整理",
+          "category": "data",
+          "summary": "按论文承诺和会场要求汇集代码、数据与说明，生成校验清单并核查独立运行。",
+          "path": "skills/package-artifacts/SKILL.md",
+          "dependencies": "既有贡献目录、会场要求和论文源码；需可验证的代码/数据环境。"
+        },
+        {
+          "id": "manage-submission",
+          "name": "投稿与返修管理",
+          "category": "writing",
+          "summary": "冻结投稿版本、整理审稿关注点，并把回复与实际论文修订对应起来。",
+          "path": "skills/manage-submission/SKILL.md",
+          "dependencies": "create-academic-research 论文目录；LaTeX/make 构建；已有稿件及审稿材料。"
+        }
+      ],
+      "sources": [
+        "https://github.com/VincenzoImp/academic-research-skills",
+        "https://github.com/VincenzoImp/academic-research-skills/blob/main/skills/digest-paper/SKILL.md",
+        "https://github.com/VincenzoImp/academic-research-skills/blob/main/skills/explore-sota/SKILL.md",
+        "https://github.com/VincenzoImp/academic-research-skills/blob/main/skills/package-artifacts/SKILL.md",
+        "https://github.com/VincenzoImp/academic-research-skills/blob/main/skills/manage-submission/SKILL.md"
+      ],
+      "notes": [
+        "2026-10-07 官方首页展示 3 stars；归为 emerging 学术工作流候选，不称热门。",
+        "官方 README 声明为 create-academic-research 0.3.0 scaffold 设计，移植时需要适配目录约定。",
+        "目录项和依赖来自上游 SKILL.md；没有实际执行或评估质量。"
+      ]
+    },
+    {
+      "repository": "jjfroehlich/agent-skills-for-academic-research",
+      "popularity": "emerging",
+      "stars_display": "1",
+      "default_branch": "main",
+      "license": "MIT",
+      "skills": [
+        {
+          "id": "data-visualization-and-figures",
+          "name": "科研图表设计与审查",
+          "category": "data",
+          "summary": "审查图形类型、坐标尺度、不确定性和多面板布局，使视觉证据便于判断。",
+          "path": "skills/data-visualization-and-figures/SKILL.md",
+          "dependencies": "输入图表、数据含义与输出要求；配套 references/checklists；未声明必需外部 API。"
+        },
+        {
+          "id": "grant-writing",
+          "name": "科研基金写作",
+          "category": "writing",
+          "summary": "组织研究目标、意义、创新性、可行性与风险计划，形成面向评审的申请叙事。",
+          "path": "skills/grant-writing/SKILL.md",
+          "dependencies": "资助方征集说明、项目证据和约束；配套参考资料；未声明必需外部 API。"
+        },
+        {
+          "id": "research-strategy-and-project-design",
+          "name": "研究问题与项目取舍",
+          "category": "evaluation",
+          "summary": "比较科研问题的知识增量与可行性，明确关键不确定性和继续、转向或停止的依据。",
+          "path": "skills/research-strategy-and-project-design/SKILL.md",
+          "dependencies": "候选问题、现有证据、资源与时间约束；配套项目选择 playbook。"
+        },
+        {
+          "id": "scientific-writing",
+          "name": "科研论文写作与修订",
+          "category": "writing",
+          "summary": "围绕主张、证据与限制重组论文段落，改善摘要、结果、讨论和图注的表达。",
+          "path": "skills/scientific-writing/SKILL.md",
+          "dependencies": "作者提供的科学证据和原稿；配套写作参考资料；未声明必需外部 API。"
+        }
+      ],
+      "sources": [
+        "https://github.com/jjfroehlich/agent-skills-for-academic-research",
+        "https://github.com/jjfroehlich/agent-skills-for-academic-research/blob/main/skills/data-visualization-and-figures/SKILL.md",
+        "https://github.com/jjfroehlich/agent-skills-for-academic-research/blob/main/skills/grant-writing/SKILL.md",
+        "https://github.com/jjfroehlich/agent-skills-for-academic-research/blob/main/skills/research-strategy-and-project-design/SKILL.md",
+        "https://raw.githubusercontent.com/jjfroehlich/agent-skills-for-academic-research/main/skills/scientific-writing/SKILL.md"
+      ],
+      "notes": [
+        "2026-10-07 官方首页展示 1 star；归为 emerging 候选，不称热门。",
+        "作者称技能从 290 余份人工整理资源中归纳，同时明确说明它们仍属实验。",
+        "README 将行为评估规范与已执行运行评测区分；本次没有执行技能或验证效果。"
+      ]
+    }
+  ]
+}

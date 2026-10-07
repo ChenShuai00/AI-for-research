@@ -1,0 +1,56 @@
+{
+  "repositories": [
+    {
+      "repository": "huggingface/skills",
+      "url": "https://github.com/huggingface/skills",
+      "stars": 11145,
+      "forks": 762,
+      "archived": false,
+      "pushed_at": "2026-10-01T12:33:22Z",
+      "updated_at": "2026-10-07T13:14:42Z",
+      "default_branch": "main",
+      "license_spdx": "Apache-2.0",
+      "api_url": "https://api.github.com/repos/huggingface/skills",
+      "checked_at": "2026-10-07T15:13:56.922Z"
+    },
+    {
+      "repository": "VincenzoImp/academic-research-skills",
+      "url": "https://github.com/VincenzoImp/academic-research-skills",
+      "stars": 3,
+      "forks": 0,
+      "archived": false,
+      "pushed_at": "2026-08-25T11:40:01Z",
+      "updated_at": "2026-10-06T13:57:08Z",
+      "default_branch": "main",
+      "license_spdx": "MIT",
+      "api_url": "https://api.github.com/repos/VincenzoImp/academic-research-skills",
+      "checked_at": "2026-10-07T15:13:56.922Z"
+    },
+    {
+      "repository": "jjfroehlich/agent-skills-for-academic-research",
+      "url": "https://github.com/jjfroehlich/agent-skills-for-academic-research",
+      "stars": 1,
+      "forks": 1,
+      "archived": false,
+      "pushed_at": "2026-08-28T21:22:58Z",
+      "updated_at": "2026-08-28T21:23:08Z",
+      "default_branch": "main",
+      "license_spdx": "MIT",
+      "api_url": "https://api.github.com/repos/jjfroehlich/agent-skills-for-academic-research",
+      "checked_at": "2026-10-07T15:13:56.922Z"
+    },
+    {
+      "repository": "openai/skills",
+      "url": "https://github.com/openai/skills",
+      "stars": 27919,
+      "forks": 1904,
+      "archived": false,
+      "pushed_at": "2026-09-08T20:35:26Z",
+      "updated_at": "2026-10-07T14:55:27Z",
+      "default_branch": "main",
+      "license_spdx": null,
+      "api_url": "https://api.github.com/repos/openai/skills",
+      "checked_at": "2026-10-07T15:13:56.922Z"
+    }
+  ]
+}

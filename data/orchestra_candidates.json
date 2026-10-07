@@ -1,0 +1,483 @@
+{
+  "repository": "Orchestra-Research/AI-Research-SKILLs",
+  "checked_at_utc": "2026-10-07T15:13:49Z",
+  "commit_sha": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+  "tree_sha": "eb544e88f08d76170d17050b10c18a317afd0314",
+  "skills": [
+    {
+      "id": "orchestra-autoresearch",
+      "name": "autoresearch",
+      "display_name": "Autoresearch",
+      "category": "ideation",
+      "summary": "围绕实验迭代与结果综合管理研究项目，并将具体任务路由到各领域技能。",
+      "path": "0-autoresearch-skill/SKILL.md",
+      "dependencies": "上游未声明固定包；需具备项目读写能力的编码代理。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/0-autoresearch-skill/SKILL.md"
+    },
+    {
+      "id": "orchestra-brainstorming-research-ideas",
+      "name": "brainstorming-research-ideas",
+      "display_name": "Research Idea Brainstorming",
+      "category": "ideation",
+      "summary": "使用结构化选题框架把初步兴趣转化为可讨论的研究方向与问题。",
+      "path": "21-research-ideation/brainstorming-research-ideas/SKILL.md",
+      "dependencies": "上游声明无额外包依赖。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/21-research-ideation/brainstorming-research-ideas/SKILL.md"
+    },
+    {
+      "id": "orchestra-creative-thinking-for-research",
+      "name": "creative-thinking-for-research",
+      "display_name": "Creative Thinking for Research",
+      "category": "ideation",
+      "summary": "通过类比、组合与约束重构等思考方法寻找研究问题的新角度。",
+      "path": "21-research-ideation/creative-thinking-for-research/SKILL.md",
+      "dependencies": "上游声明无额外包依赖。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/21-research-ideation/creative-thinking-for-research/SKILL.md"
+    },
+    {
+      "id": "orchestra-ml-paper-writing",
+      "name": "ml-paper-writing",
+      "display_name": "ML Paper Writing",
+      "category": "writing",
+      "summary": "从研究材料组织机器学习论文论证，辅助引文核验与会议投稿准备。",
+      "path": "20-ml-paper-writing/ml-paper-writing/SKILL.md",
+      "dependencies": "semanticscholar、arxiv、habanero、requests；排版按需使用 LaTeX。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/20-ml-paper-writing/ml-paper-writing/SKILL.md"
+    },
+    {
+      "id": "orchestra-academic-plotting",
+      "name": "academic-plotting",
+      "display_name": "Academic Plotting",
+      "category": "writing",
+      "summary": "把实验数据绘成论文图表，并为模型架构图提供单独的生成工作流。",
+      "path": "20-ml-paper-writing/academic-plotting/SKILL.md",
+      "dependencies": "matplotlib、seaborn、NumPy；AI 架构图另需 google-genai 与 Gemini 凭据。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/20-ml-paper-writing/academic-plotting/SKILL.md"
+    },
+    {
+      "id": "orchestra-ara-research-manager",
+      "name": "ara-research-manager",
+      "display_name": "ARA Research Manager",
+      "category": "data",
+      "summary": "在研究会话结束后记录决策、实验、失败路径与人员或代理的来源标签。",
+      "path": "22-agent-native-research-artifact/research-manager/SKILL.md",
+      "dependencies": "上游声明无额外包；需研究会话记录与 ARA 工作目录。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/22-agent-native-research-artifact/research-manager/SKILL.md"
+    },
+    {
+      "id": "orchestra-ara-rigor-reviewer",
+      "name": "ara-rigor-reviewer",
+      "display_name": "ARA Rigor Reviewer",
+      "category": "evaluation",
+      "summary": "从证据相关性、可证伪性与方法严谨性等维度审阅结构化研究材料。",
+      "path": "22-agent-native-research-artifact/rigor-reviewer/SKILL.md",
+      "dependencies": "上游声明无额外包；需已通过结构校验的 ARA 材料。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/22-agent-native-research-artifact/rigor-reviewer/SKILL.md"
+    },
+    {
+      "id": "orchestra-peft-fine-tuning",
+      "name": "peft-fine-tuning",
+      "display_name": "PEFT",
+      "category": "training",
+      "summary": "使用 LoRA、QLoRA 等适配器方法开展受显存约束的大模型微调实验。",
+      "path": "03-fine-tuning/peft/SKILL.md",
+      "dependencies": "peft、transformers、PyTorch、bitsandbytes；需合适的训练硬件。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/03-fine-tuning/peft/SKILL.md"
+    },
+    {
+      "id": "orchestra-unsloth",
+      "name": "unsloth",
+      "display_name": "Unsloth",
+      "category": "training",
+      "summary": "为 Unsloth 的 LoRA 与 QLoRA 微调配置、代码排错和资源优化提供参考。",
+      "path": "03-fine-tuning/unsloth/SKILL.md",
+      "dependencies": "unsloth、PyTorch、transformers、trl、datasets、peft。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/03-fine-tuning/unsloth/SKILL.md"
+    },
+    {
+      "id": "orchestra-llama-factory",
+      "name": "llama-factory",
+      "display_name": "LLaMA-Factory",
+      "category": "training",
+      "summary": "通过 LLaMA-Factory 的界面或配置完成语言模型与多模态模型微调。",
+      "path": "03-fine-tuning/llama-factory/SKILL.md",
+      "dependencies": "上游列 llmtuner、PyTorch、transformers、datasets、peft、accelerate、gradio。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/03-fine-tuning/llama-factory/SKILL.md"
+    },
+    {
+      "id": "orchestra-axolotl",
+      "name": "axolotl",
+      "display_name": "Axolotl",
+      "category": "training",
+      "summary": "用 YAML 配置组织模型、数据与 LoRA 或偏好训练流程。",
+      "path": "03-fine-tuning/axolotl/SKILL.md",
+      "dependencies": "axolotl、PyTorch、transformers、datasets、peft、accelerate、deepspeed。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/03-fine-tuning/axolotl/SKILL.md"
+    },
+    {
+      "id": "orchestra-fine-tuning-with-trl",
+      "name": "fine-tuning-with-trl",
+      "display_name": "TRL Fine-Tuning",
+      "category": "training",
+      "summary": "在 Hugging Face 体系中开展 SFT、DPO 与奖励驱动的后训练实验。",
+      "path": "06-post-training/trl-fine-tuning/SKILL.md",
+      "dependencies": "trl、transformers、datasets、peft、accelerate、PyTorch。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/06-post-training/trl-fine-tuning/SKILL.md"
+    },
+    {
+      "id": "orchestra-grpo-rl-training",
+      "name": "grpo-rl-training",
+      "display_name": "GRPO/RL Training",
+      "category": "training",
+      "summary": "围绕自定义奖励函数配置 TRL 的 GRPO 推理与任务专用训练实验。",
+      "path": "06-post-training/grpo-rl-training/SKILL.md",
+      "dependencies": "transformers、trl、datasets、peft、PyTorch；需训练资源与奖励定义。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/06-post-training/grpo-rl-training/SKILL.md"
+    },
+    {
+      "id": "orchestra-huggingface-accelerate",
+      "name": "huggingface-accelerate",
+      "display_name": "Hugging Face Accelerate",
+      "category": "compute",
+      "summary": "为 PyTorch 训练脚本配置设备、混合精度与分布式启动。",
+      "path": "08-distributed-training/accelerate/SKILL.md",
+      "dependencies": "accelerate、PyTorch、transformers；多卡实验需相应硬件。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/08-distributed-training/accelerate/SKILL.md"
+    },
+    {
+      "id": "orchestra-deepspeed",
+      "name": "deepspeed",
+      "display_name": "DeepSpeed",
+      "category": "compute",
+      "summary": "为大模型分布式训练配置 ZeRO、流水线并行与混合精度。",
+      "path": "08-distributed-training/deepspeed/SKILL.md",
+      "dependencies": "deepspeed、PyTorch、transformers、accelerate；需兼容训练环境。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/08-distributed-training/deepspeed/SKILL.md"
+    },
+    {
+      "id": "orchestra-ray-data",
+      "name": "ray-data",
+      "display_name": "Ray Data",
+      "category": "data",
+      "summary": "通过流式与分布式处理组织机器学习数据预处理、加载和批量推理。",
+      "path": "05-data-processing/ray-data/SKILL.md",
+      "dependencies": "ray[data]、pyarrow、pandas。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/05-data-processing/ray-data/SKILL.md"
+    },
+    {
+      "id": "orchestra-evaluating-llms-harness",
+      "name": "evaluating-llms-harness",
+      "display_name": "lm-evaluation-harness",
+      "category": "evaluation",
+      "summary": "用统一的任务与指标评估语言模型，并比较模型版本或训练阶段。",
+      "path": "11-evaluation/lm-evaluation-harness/SKILL.md",
+      "dependencies": "lm-eval、transformers；vLLM 为上游列出的推理后端。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/11-evaluation/lm-evaluation-harness/SKILL.md"
+    },
+    {
+      "id": "orchestra-evaluating-code-models",
+      "name": "evaluating-code-models",
+      "display_name": "BigCode Evaluation Harness",
+      "category": "evaluation",
+      "summary": "使用 HumanEval、MBPP 等基准与 pass@k 指标比较代码生成模型。",
+      "path": "11-evaluation/bigcode-evaluation-harness/SKILL.md",
+      "dependencies": "bigcode-evaluation-harness、transformers、accelerate、datasets；执行评估需隔离环境。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/11-evaluation/bigcode-evaluation-harness/SKILL.md"
+    },
+    {
+      "id": "orchestra-transformer-lens-interpretability",
+      "name": "transformer-lens-interpretability",
+      "display_name": "TransformerLens",
+      "category": "evaluation",
+      "summary": "借助激活缓存、HookPoints 和激活修补分析 Transformer 的内部机制。",
+      "path": "04-mechanistic-interpretability/transformer-lens/SKILL.md",
+      "dependencies": "transformer-lens、PyTorch；需目标模型与实验资源。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/04-mechanistic-interpretability/transformer-lens/SKILL.md"
+    },
+    {
+      "id": "orchestra-weights-and-biases",
+      "name": "weights-and-biases",
+      "display_name": "Weights & Biases",
+      "category": "compute",
+      "summary": "记录训练指标、组织超参数搜索并关联模型与数据产物。",
+      "path": "13-mlops/weights-and-biases/SKILL.md",
+      "dependencies": "wandb；云端同步需账户，本地记录按配置使用。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/13-mlops/weights-and-biases/SKILL.md"
+    },
+    {
+      "id": "orchestra-mlflow",
+      "name": "mlflow",
+      "display_name": "MLflow",
+      "category": "compute",
+      "summary": "保存实验参数、指标和模型版本，为实验复查与复现保留记录。",
+      "path": "13-mlops/mlflow/SKILL.md",
+      "dependencies": "mlflow、sqlalchemy、boto3；后两项按存储方案配置。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/13-mlops/mlflow/SKILL.md"
+    },
+    {
+      "id": "orchestra-tensorboard",
+      "name": "tensorboard",
+      "display_name": "TensorBoard",
+      "category": "compute",
+      "summary": "可视化训练曲线、模型图和性能剖析结果，辅助实验比较与调试。",
+      "path": "13-mlops/tensorboard/SKILL.md",
+      "dependencies": "tensorboard；上游另列 PyTorch 与 TensorFlow，按训练框架使用。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/13-mlops/tensorboard/SKILL.md"
+    },
+    {
+      "id": "orchestra-serving-llms-vllm",
+      "name": "serving-llms-vllm",
+      "display_name": "vLLM",
+      "category": "compute",
+      "summary": "通过连续批处理、分页注意力与张量并行部署模型推理实验或服务。",
+      "path": "12-inference-serving/vllm/SKILL.md",
+      "dependencies": "vllm、PyTorch、transformers；需兼容加速设备。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/12-inference-serving/vllm/SKILL.md"
+    },
+    {
+      "id": "orchestra-sglang",
+      "name": "sglang",
+      "display_name": "SGLang",
+      "category": "compute",
+      "summary": "为模型服务配置前缀缓存、结构化输出与受约束生成。",
+      "path": "12-inference-serving/sglang/SKILL.md",
+      "dependencies": "sglang、PyTorch、transformers；需兼容推理硬件。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/12-inference-serving/sglang/SKILL.md"
+    },
+    {
+      "id": "orchestra-llama-cpp",
+      "name": "llama-cpp",
+      "display_name": "llama.cpp",
+      "category": "compute",
+      "summary": "使用 GGUF 模型在 CPU、Apple Silicon 或消费级硬件上开展本地推理。",
+      "path": "12-inference-serving/llama-cpp/SKILL.md",
+      "dependencies": "上游列 llama-cpp-python；需 GGUF 模型与对应编译后端。",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/12-inference-serving/llama-cpp/SKILL.md"
+    }
+  ],
+  "sources": [
+    {
+      "kind": "repository_metadata",
+      "url": "https://api.github.com/repos/Orchestra-Research/AI-Research-SKILLs",
+      "checked_at_utc": "2026-10-07T15:13:49Z",
+      "stargazers_count": 13327,
+      "forks_count": 941,
+      "pushed_at": "2026-06-16T01:36:46Z"
+    },
+    {
+      "kind": "commit",
+      "url": "https://api.github.com/repos/Orchestra-Research/AI-Research-SKILLs/commits/main",
+      "commit_sha": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+      "root_tree_sha": "eb544e88f08d76170d17050b10c18a317afd0314",
+      "committed_at": "2026-06-16T01:36:40Z"
+    },
+    {
+      "kind": "recursive_tree",
+      "url": "https://api.github.com/repos/Orchestra-Research/AI-Research-SKILLs/git/trees/eb544e88f08d76170d17050b10c18a317afd0314?recursive=1",
+      "truncated": false,
+      "skill_md_count": 98
+    },
+    {
+      "kind": "readme",
+      "url": "https://github.com/Orchestra-Research/AI-Research-SKILLs/blob/773a52944ba4747a18bd4ae9ade53fff041adcbc/README.md",
+      "evidence": [
+        {
+          "line": 20,
+          "fact": "主标题写 98 Skills"
+        },
+        {
+          "line": 381,
+          "fact": "详细统计表仍写 87"
+        },
+        {
+          "line": 511,
+          "fact": "版本说明称已对齐为 98 skills / 23 categories"
+        }
+      ]
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-autoresearch",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/0-autoresearch-skill/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-brainstorming-research-ideas",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/21-research-ideation/brainstorming-research-ideas/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-creative-thinking-for-research",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/21-research-ideation/creative-thinking-for-research/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-ml-paper-writing",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/20-ml-paper-writing/ml-paper-writing/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-academic-plotting",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/20-ml-paper-writing/academic-plotting/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-ara-research-manager",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/22-agent-native-research-artifact/research-manager/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-ara-rigor-reviewer",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/22-agent-native-research-artifact/rigor-reviewer/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-peft-fine-tuning",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/03-fine-tuning/peft/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-unsloth",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/03-fine-tuning/unsloth/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-llama-factory",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/03-fine-tuning/llama-factory/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-axolotl",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/03-fine-tuning/axolotl/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-fine-tuning-with-trl",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/06-post-training/trl-fine-tuning/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-grpo-rl-training",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/06-post-training/grpo-rl-training/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-huggingface-accelerate",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/08-distributed-training/accelerate/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-deepspeed",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/08-distributed-training/deepspeed/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-ray-data",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/05-data-processing/ray-data/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-evaluating-llms-harness",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/11-evaluation/lm-evaluation-harness/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-evaluating-code-models",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/11-evaluation/bigcode-evaluation-harness/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-transformer-lens-interpretability",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/04-mechanistic-interpretability/transformer-lens/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-weights-and-biases",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/13-mlops/weights-and-biases/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-mlflow",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/13-mlops/mlflow/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-tensorboard",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/13-mlops/tensorboard/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-serving-llms-vllm",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/12-inference-serving/vllm/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-sglang",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/12-inference-serving/sglang/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    },
+    {
+      "kind": "skill_frontmatter",
+      "skill_id": "orchestra-llama-cpp",
+      "url": "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/12-inference-serving/llama-cpp/SKILL.md",
+      "http_status": 200,
+      "checked_at_utc": "2026-10-07T15:11:47Z"
+    }
+  ],
+  "notes": [
+    "这 25 条按科研工作流覆盖度人工精选，不表示每个 skill 的使用量排名；热度指标仅适用于整个 GitHub 仓库。",
+    "公开 API 在核验时显示 13327 stars、941 forks；main 最近提交为 2026-06-16，距 2026-10-07 已超过 90 天，因此不能仅凭 stars 声称当前维护活跃。",
+    "递归 tree 未被截断，实际存在 98 个 SKILL.md；README 主标题写 98，但第 381 行详细统计仍写 87，一些分类条数也未同步，应以固定提交的文件清单为准。",
+    "name 严格使用 SKILL.md 的 frontmatter name；display_name 使用便于阅读的技能或框架名称，path 是已核验的准确相对路径。",
+    "用途为中文原创概括；依赖是上游声明及使用条件的简注，并非保证兼容的安装锁文件，也未测试其运行。",
+    "仅读取公开元数据和技能文本，未执行远程技能指令，未安装或运行所列技能。",
+    "commit_sha 与根 tree_sha 分别通过 /commits/main 和根 tree API 核验；所有 skill URL 固定到 commit_sha，避免 main 漂移。"
+  ]
+}

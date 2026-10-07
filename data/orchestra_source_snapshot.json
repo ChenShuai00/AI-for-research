@@ -1,0 +1,240 @@
+{
+  "repository": "Orchestra-Research/AI-Research-SKILLs",
+  "metadata": {
+    "full_name": "Orchestra-Research/AI-Research-SKILLs",
+    "html_url": "https://github.com/Orchestra-Research/AI-Research-SKILLs",
+    "description": "Comprehensive open-source library of AI research and engineering skills for any AI model. Package the skills and your claude code/codex/gemini agent will be an AI research agent with full horsepower. Maintained by Orchestra Research.",
+    "stargazers_count": 13327,
+    "forks_count": 941,
+    "default_branch": "main",
+    "pushed_at": "2026-06-16T01:36:46Z",
+    "updated_at": "2026-10-07T14:30:42Z",
+    "created_at": "2025-11-03T06:13:06Z",
+    "license": "MIT",
+    "archived": false
+  },
+  "checked_at_utc": "2026-10-07T15:13:49Z",
+  "commit_sha": "773a52944ba4747a18bd4ae9ade53fff041adcbc",
+  "commit_date": "2026-06-16T01:36:40Z",
+  "tree_sha": "eb544e88f08d76170d17050b10c18a317afd0314",
+  "tree_truncated": false,
+  "skill_count": 98,
+  "skill_paths": [
+    "0-autoresearch-skill/SKILL.md",
+    "01-model-architecture/litgpt/SKILL.md",
+    "01-model-architecture/mamba/SKILL.md",
+    "01-model-architecture/nanogpt/SKILL.md",
+    "01-model-architecture/rwkv/SKILL.md",
+    "01-model-architecture/torchtitan/SKILL.md",
+    "02-tokenization/huggingface-tokenizers/SKILL.md",
+    "02-tokenization/sentencepiece/SKILL.md",
+    "03-fine-tuning/axolotl/SKILL.md",
+    "03-fine-tuning/llama-factory/SKILL.md",
+    "03-fine-tuning/peft/SKILL.md",
+    "03-fine-tuning/unsloth/SKILL.md",
+    "04-mechanistic-interpretability/nnsight/SKILL.md",
+    "04-mechanistic-interpretability/pyvene/SKILL.md",
+    "04-mechanistic-interpretability/saelens/SKILL.md",
+    "04-mechanistic-interpretability/transformer-lens/SKILL.md",
+    "05-data-processing/nemo-curator/SKILL.md",
+    "05-data-processing/ray-data/SKILL.md",
+    "06-post-training/grpo-rl-training/SKILL.md",
+    "06-post-training/miles/SKILL.md",
+    "06-post-training/openrlhf/SKILL.md",
+    "06-post-training/simpo/SKILL.md",
+    "06-post-training/slime/SKILL.md",
+    "06-post-training/torchforge/SKILL.md",
+    "06-post-training/trl-fine-tuning/SKILL.md",
+    "06-post-training/verl/SKILL.md",
+    "07-safety-alignment/constitutional-ai/SKILL.md",
+    "07-safety-alignment/llamaguard/SKILL.md",
+    "07-safety-alignment/nemo-guardrails/SKILL.md",
+    "07-safety-alignment/prompt-guard/SKILL.md",
+    "08-distributed-training/accelerate/SKILL.md",
+    "08-distributed-training/deepspeed/SKILL.md",
+    "08-distributed-training/megatron-core/SKILL.md",
+    "08-distributed-training/pytorch-fsdp2/SKILL.md",
+    "08-distributed-training/pytorch-lightning/SKILL.md",
+    "08-distributed-training/ray-train/SKILL.md",
+    "09-infrastructure/lambda-labs/SKILL.md",
+    "09-infrastructure/modal/SKILL.md",
+    "09-infrastructure/skypilot/SKILL.md",
+    "10-optimization/awq/SKILL.md",
+    "10-optimization/bitsandbytes/SKILL.md",
+    "10-optimization/flash-attention/SKILL.md",
+    "10-optimization/gguf/SKILL.md",
+    "10-optimization/gptq/SKILL.md",
+    "10-optimization/hqq/SKILL.md",
+    "10-optimization/ml-training-recipes/SKILL.md",
+    "11-evaluation/bigcode-evaluation-harness/SKILL.md",
+    "11-evaluation/lm-evaluation-harness/SKILL.md",
+    "11-evaluation/nemo-evaluator/SKILL.md",
+    "12-inference-serving/llama-cpp/SKILL.md",
+    "12-inference-serving/sglang/SKILL.md",
+    "12-inference-serving/tensorrt-llm/SKILL.md",
+    "12-inference-serving/vllm/SKILL.md",
+    "13-mlops/mlflow/SKILL.md",
+    "13-mlops/swanlab/SKILL.md",
+    "13-mlops/tensorboard/SKILL.md",
+    "13-mlops/weights-and-biases/SKILL.md",
+    "14-agents/a-evolve/SKILL.md",
+    "14-agents/autogpt/SKILL.md",
+    "14-agents/crewai/SKILL.md",
+    "14-agents/langchain/SKILL.md",
+    "14-agents/llamaindex/SKILL.md",
+    "15-rag/chroma/SKILL.md",
+    "15-rag/faiss/SKILL.md",
+    "15-rag/pinecone/SKILL.md",
+    "15-rag/qdrant/SKILL.md",
+    "15-rag/sentence-transformers/SKILL.md",
+    "16-prompt-engineering/dspy/SKILL.md",
+    "16-prompt-engineering/guidance/SKILL.md",
+    "16-prompt-engineering/instructor/SKILL.md",
+    "16-prompt-engineering/outlines/SKILL.md",
+    "17-observability/langsmith/SKILL.md",
+    "17-observability/phoenix/SKILL.md",
+    "18-multimodal/audiocraft/SKILL.md",
+    "18-multimodal/blip-2/SKILL.md",
+    "18-multimodal/clip/SKILL.md",
+    "18-multimodal/cosmos-policy/SKILL.md",
+    "18-multimodal/llava/SKILL.md",
+    "18-multimodal/openpi/SKILL.md",
+    "18-multimodal/openvla-oft/SKILL.md",
+    "18-multimodal/segment-anything/SKILL.md",
+    "18-multimodal/stable-diffusion/SKILL.md",
+    "18-multimodal/whisper/SKILL.md",
+    "19-emerging-techniques/knowledge-distillation/SKILL.md",
+    "19-emerging-techniques/long-context/SKILL.md",
+    "19-emerging-techniques/model-merging/SKILL.md",
+    "19-emerging-techniques/model-pruning/SKILL.md",
+    "19-emerging-techniques/moe-training/SKILL.md",
+    "19-emerging-techniques/speculative-decoding/SKILL.md",
+    "20-ml-paper-writing/academic-plotting/SKILL.md",
+    "20-ml-paper-writing/ml-paper-writing/SKILL.md",
+    "20-ml-paper-writing/presenting-conference-talks/SKILL.md",
+    "20-ml-paper-writing/systems-paper-writing/SKILL.md",
+    "21-research-ideation/brainstorming-research-ideas/SKILL.md",
+    "21-research-ideation/creative-thinking-for-research/SKILL.md",
+    "22-agent-native-research-artifact/compiler/SKILL.md",
+    "22-agent-native-research-artifact/research-manager/SKILL.md",
+    "22-agent-native-research-artifact/rigor-reviewer/SKILL.md"
+  ],
+  "readme_evidence": [
+    {
+      "line": 20,
+      "claim": "主标题写 98 Skills"
+    },
+    {
+      "line": 144,
+      "claim": "分类总表标题写 23 类、98 skills"
+    },
+    {
+      "line": 381,
+      "claim": "详细统计表仍写 87 skills"
+    },
+    {
+      "line": 511,
+      "claim": "版本说明称数量已对齐到 98 skills、23 类"
+    }
+  ],
+  "sources": [
+    "https://api.github.com/repos/Orchestra-Research/AI-Research-SKILLs",
+    "https://api.github.com/repos/Orchestra-Research/AI-Research-SKILLs/commits/main",
+    "https://api.github.com/repos/Orchestra-Research/AI-Research-SKILLs/git/trees/eb544e88f08d76170d17050b10c18a317afd0314?recursive=1",
+    "https://raw.githubusercontent.com/Orchestra-Research/AI-Research-SKILLs/773a52944ba4747a18bd4ae9ade53fff041adcbc/README.md"
+  ],
+  "category_counts": [
+    {
+      "category": "0-autoresearch-skill",
+      "count": 1
+    },
+    {
+      "category": "01-model-architecture",
+      "count": 5
+    },
+    {
+      "category": "02-tokenization",
+      "count": 2
+    },
+    {
+      "category": "03-fine-tuning",
+      "count": 4
+    },
+    {
+      "category": "04-mechanistic-interpretability",
+      "count": 4
+    },
+    {
+      "category": "05-data-processing",
+      "count": 2
+    },
+    {
+      "category": "06-post-training",
+      "count": 8
+    },
+    {
+      "category": "07-safety-alignment",
+      "count": 4
+    },
+    {
+      "category": "08-distributed-training",
+      "count": 6
+    },
+    {
+      "category": "09-infrastructure",
+      "count": 3
+    },
+    {
+      "category": "10-optimization",
+      "count": 7
+    },
+    {
+      "category": "11-evaluation",
+      "count": 3
+    },
+    {
+      "category": "12-inference-serving",
+      "count": 4
+    },
+    {
+      "category": "13-mlops",
+      "count": 4
+    },
+    {
+      "category": "14-agents",
+      "count": 5
+    },
+    {
+      "category": "15-rag",
+      "count": 5
+    },
+    {
+      "category": "16-prompt-engineering",
+      "count": 4
+    },
+    {
+      "category": "17-observability",
+      "count": 2
+    },
+    {
+      "category": "18-multimodal",
+      "count": 10
+    },
+    {
+      "category": "19-emerging-techniques",
+      "count": 6
+    },
+    {
+      "category": "20-ml-paper-writing",
+      "count": 4
+    },
+    {
+      "category": "21-research-ideation",
+      "count": 2
+    },
+    {
+      "category": "22-agent-native-research-artifact",
+      "count": 3
+    }
+  ]
+}

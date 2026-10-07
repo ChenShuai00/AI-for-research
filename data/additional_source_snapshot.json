@@ -1,0 +1,209 @@
+{
+  "checked_date": "2026-10-07",
+  "repositories": [
+    {
+      "repository": "huggingface/skills",
+      "checked_date": "2026-10-07",
+      "default_branch": "main",
+      "commit_sha": "ca0325bb20b2d0a1b2efa893670c4c72f79e707b",
+      "commit_source": "git ls-remote https://github.com/huggingface/skills.git refs/heads/main",
+      "stars": 11145,
+      "stars_display": "11.1k",
+      "stats_note": "主代理本次 GitHub API 查询返回 stars=11145，技能总数=26；本子任务官方网页展示11.1k。",
+      "selected_count": 10,
+      "verification": "逐条读取固定commit的raw SKILL.md，未执行上游内容",
+      "skills": [
+        {
+          "id": "hf-cli",
+          "path": "skills/hf-cli/SKILL.md",
+          "status": 200,
+          "source_url": "https://raw.githubusercontent.com/huggingface/skills/ca0325bb20b2d0a1b2efa893670c4c72f79e707b/skills/hf-cli/SKILL.md",
+          "sha256_utf8": "91dddd0303b2a3c5b6a38aa240d29cb2c93b118c98a6aafe46461df8f7a163bb",
+          "characters": 33611,
+          "frontmatter": "name: hf-cli\ndescription: \"Hugging Face Hub CLI (`hf`) for downloading, uploading, and managing models, datasets, spaces, buckets, repos, papers, jobs, and more on the Hugging Face Hub. Use when: handling authentication; managing local cache; managing Hugging Face Buckets; running or scheduling jobs on Hugging Face infrastructure; managing Hugging Face repos; discussions and pull requests; browsing models, datasets and spaces; reading, searching, or browsing academic papers; managing collections; querying datasets; configuring spaces; setting up webhooks; or deploying and managing HF Inference Endpoints. Make sure to use this skill whenever the user mentions 'hf', 'huggingface', 'Hugging Face', 'huggingface-cli', or 'hugging face cli', or wants to do anything related to the Hugging Face ecosystem and to AI and ML in general. Also use for cloud storage needs like training checkpoints, data pipelines, or agent traces. Use even if the user doesn't explicitly ask for a CLI command. Replaces the deprecated `huggingface-cli`.\""
+        },
+        {
+          "id": "hf-mem",
+          "path": "skills/hf-mem/SKILL.md",
+          "status": 200,
+          "source_url": "https://raw.githubusercontent.com/huggingface/skills/ca0325bb20b2d0a1b2efa893670c4c72f79e707b/skills/hf-mem/SKILL.md",
+          "sha256_utf8": "ee99f9d97e084aa61a80eaec4e6de2265341e71256d918d48fb87a2ac01ce99f",
+          "characters": 3325,
+          "frontmatter": "name: hf-mem\ndescription: Hugging Face CLI to estimate the required memory to load Safetensors or GGUF model weights for inference from the Hugging Face Hub"
+        },
+        {
+          "id": "huggingface-community-evals",
+          "path": "skills/huggingface-community-evals/SKILL.md",
+          "status": 200,
+          "source_url": "https://raw.githubusercontent.com/huggingface/skills/ca0325bb20b2d0a1b2efa893670c4c72f79e707b/skills/huggingface-community-evals/SKILL.md",
+          "sha256_utf8": "a97f1c703f55b72427453a76af858237e6392a447fcafa9eeb85f7ac67f0155d",
+          "characters": 6552,
+          "frontmatter": "name: huggingface-community-evals\ndescription: Run evaluations for Hugging Face Hub models using inspect-ai and lighteval on local hardware. Use for backend selection, local GPU evals, and choosing between vLLM / Transformers / accelerate. Not for HF Jobs orchestration, model-card PRs, .eval_results publication, or community-evals automation."
+        },
+        {
+          "id": "huggingface-datasets",
+          "path": "skills/huggingface-datasets/SKILL.md",
+          "status": 200,
+          "source_url": "https://raw.githubusercontent.com/huggingface/skills/ca0325bb20b2d0a1b2efa893670c4c72f79e707b/skills/huggingface-datasets/SKILL.md",
+          "sha256_utf8": "eeca50adf211ea64a288b852938f85a5183b045c720dc696b62db9aa2ea8deb2",
+          "characters": 4671,
+          "frontmatter": "name: huggingface-datasets\r\ndescription: Use this skill for Hugging Face Dataset Viewer API workflows that fetch subset/split metadata, paginate rows, search text, apply filters, download parquet URLs, and read size or statistics."
+        },
+        {
+          "id": "huggingface-llm-trainer",
+          "path": "skills/huggingface-llm-trainer/SKILL.md",
+          "status": 200,
+          "source_url": "https://raw.githubusercontent.com/huggingface/skills/ca0325bb20b2d0a1b2efa893670c4c72f79e707b/skills/huggingface-llm-trainer/SKILL.md",
+          "sha256_utf8": "fb5c5e25103e38226e4d8ae28db84a01de42a11da4be1918fa72f833699f9d0d",
+          "characters": 28662,
+          "frontmatter": "name: huggingface-llm-trainer\ndescription: Train or fine-tune language and vision models using TRL (Transformer Reinforcement Learning) or Unsloth with Hugging Face Jobs infrastructure. Covers SFT, DPO, GRPO and reward modeling training methods, plus GGUF conversion for local deployment. Includes guidance on the TRL Jobs package, UV scripts with PEP 723 format, dataset preparation and validation, hardware selection, cost estimation, Trackio monitoring, Hub authentication, model selection/leaderboards and model persistence. Use for tasks involving cloud GPU training, GGUF conversion, or when users mention training on Hugging Face Jobs without local GPU setup.\nlicense: Complete terms in LICENSE.txt"
+        },
+        {
+          "id": "huggingface-paper-publisher",
+          "path": "skills/huggingface-paper-publisher/SKILL.md",
+          "status": 200,
+          "source_url": "https://raw.githubusercontent.com/huggingface/skills/ca0325bb20b2d0a1b2efa893670c4c72f79e707b/skills/huggingface-paper-publisher/SKILL.md",
+          "sha256_utf8": "04b59406cf88054ab365f5bbbc57fe2e2fcb369e942dff2841c4f4297318c353",
+          "characters": 16688,
+          "frontmatter": "name: huggingface-paper-publisher\ndescription: Publish and manage research papers on Hugging Face Hub. Supports creating paper pages, linking papers to models/datasets, claiming authorship, and generating professional markdown-based research articles."
+        },
+        {
+          "id": "huggingface-papers",
+          "path": "skills/huggingface-papers/SKILL.md",
+          "status": 200,
+          "source_url": "https://raw.githubusercontent.com/huggingface/skills/ca0325bb20b2d0a1b2efa893670c4c72f79e707b/skills/huggingface-papers/SKILL.md",
+          "sha256_utf8": "985c2d5c7261aba2b157811cde0c2b30134663694a4ab701280de28f941eb3b2",
+          "characters": 9348,
+          "frontmatter": "name: huggingface-papers\ndescription: Look up and read Hugging Face paper pages in markdown, and use the papers API for structured metadata such as authors, linked models/datasets/spaces, Github repo and project page. Use when the user shares a Hugging Face paper page URL, an arXiv URL or ID, or asks to summarize, explain, or analyze an AI research paper."
+        },
+        {
+          "id": "huggingface-trackio",
+          "path": "skills/huggingface-trackio/SKILL.md",
+          "status": 200,
+          "source_url": "https://raw.githubusercontent.com/huggingface/skills/ca0325bb20b2d0a1b2efa893670c4c72f79e707b/skills/huggingface-trackio/SKILL.md",
+          "sha256_utf8": "540f52974f4f77c2455a7b37ed983da0dbfb0f5af3d2c482e4736f14f1cc8724",
+          "characters": 5086,
+          "frontmatter": "name: huggingface-trackio\ndescription: Track and visualize ML training experiments with Trackio. Use when logging metrics during training (Python API), firing alerts for training diagnostics, or retrieving/analyzing logged metrics (CLI). Supports real-time dashboard visualization, alerts with webhooks, HF Space syncing, and JSON output for automation."
+        },
+        {
+          "id": "huggingface-vision-trainer",
+          "path": "skills/huggingface-vision-trainer/SKILL.md",
+          "status": 200,
+          "source_url": "https://raw.githubusercontent.com/huggingface/skills/ca0325bb20b2d0a1b2efa893670c4c72f79e707b/skills/huggingface-vision-trainer/SKILL.md",
+          "sha256_utf8": "c7aba4de75fa6595ffdaf5c50136786e8346aba0c9ff0261eaee656af4a3b0d9",
+          "characters": 29993,
+          "frontmatter": "name: huggingface-vision-trainer\ndescription: Trains and fine-tunes vision models for object detection (D-FINE, RT-DETR v2, DETR, YOLOS), image classification (timm models — MobileNetV3, MobileViT, ResNet, ViT/DINOv3 — plus any Transformers classifier), and SAM/SAM2 segmentation using Hugging Face Transformers on Hugging Face Jobs cloud GPUs. Covers COCO-format dataset preparation, Albumentations augmentation, mAP/mAR evaluation, accuracy metrics, SAM segmentation with bbox/point prompts, DiceCE loss, hardware selection, cost estimation, Trackio monitoring, and Hub persistence. Use when users mention training object detection, image classification, SAM, SAM2, segmentation, image matting, DETR, D-FINE, RT-DETR, ViT, timm, MobileNet, ResNet, bounding box models, or fine-tuning vision models on Hugging Face Jobs."
+        },
+        {
+          "id": "train-sentence-transformers",
+          "path": "skills/train-sentence-transformers/SKILL.md",
+          "status": 200,
+          "source_url": "https://raw.githubusercontent.com/huggingface/skills/ca0325bb20b2d0a1b2efa893670c4c72f79e707b/skills/train-sentence-transformers/SKILL.md",
+          "sha256_utf8": "9bd098d81049fc245032ee4f97cf5d9de906d726731ace4a6df0bad6d9dcd182",
+          "characters": 10488,
+          "frontmatter": "name: train-sentence-transformers\ndescription: Train or fine-tune sentence-transformers models across `SentenceTransformer` (bi-encoder, dense or static embedding model for retrieval, similarity, clustering, classification, paraphrase mining, dedup, multimodal), `CrossEncoder` (reranker, pair scoring for two-stage retrieval / pair classification), `SparseEncoder` (SPLADE, sparse embedding model for learned-sparse retrieval), and `MultiVectorEncoder` (ColBERT / late-interaction, per-token embeddings scored with MaxSim). Covers loss selection, hard-negative mining, evaluators, distillation, LoRA, Matryoshka, and Hugging Face Hub publishing. Use for any sentence-transformers training task."
+        }
+      ]
+    },
+    {
+      "repository": "VincenzoImp/academic-research-skills",
+      "checked_date": "2026-10-07",
+      "default_branch": "main",
+      "commit_sha": "28a4f18e43ae5c086357c4a1e1412b0a96c74703",
+      "commit_source": "git ls-remote https://github.com/VincenzoImp/academic-research-skills.git refs/heads/main",
+      "stars": 3,
+      "stars_display": "3",
+      "stats_note": "主代理本次 GitHub API 查询返回 stars=3，技能总数=8；本子任务官方网页也展示3。",
+      "selected_count": 4,
+      "verification": "逐条读取固定commit的raw SKILL.md，未执行上游内容",
+      "skills": [
+        {
+          "id": "digest-paper",
+          "path": "skills/digest-paper/SKILL.md",
+          "status": 200,
+          "source_url": "https://raw.githubusercontent.com/VincenzoImp/academic-research-skills/28a4f18e43ae5c086357c4a1e1412b0a96c74703/skills/digest-paper/SKILL.md",
+          "sha256_utf8": "209be032f9931fb6169c384af1d93e4a47a3e17f38022ac7ceabf676b9cc70d5",
+          "characters": 4246,
+          "frontmatter": "name: digest-paper\ndescription: Use when adding, ingesting, or digesting a single paper into the SOTA — from a title, DOI, arXiv id, URL, or PDF — producing its folder, synthesis, bib entry, citation graph, and index row.\nlicense: MIT"
+        },
+        {
+          "id": "explore-sota",
+          "path": "skills/explore-sota/SKILL.md",
+          "status": 200,
+          "source_url": "https://raw.githubusercontent.com/VincenzoImp/academic-research-skills/28a4f18e43ae5c086357c4a1e1412b0a96c74703/skills/explore-sota/SKILL.md",
+          "sha256_utf8": "750dd7068d4bdfbbe54a1a114875a529dc8dc9b936e8724e3cd064024c1f3e1d",
+          "characters": 3904,
+          "frontmatter": "name: explore-sota\ndescription: Use when building or expanding the SOTA — from an idea, keywords, seed papers, or the existing collection — through MCP search, citation chasing, triage, and digestion of accepted papers.\nlicense: MIT"
+        },
+        {
+          "id": "package-artifacts",
+          "path": "skills/package-artifacts/SKILL.md",
+          "status": 200,
+          "source_url": "https://raw.githubusercontent.com/VincenzoImp/academic-research-skills/28a4f18e43ae5c086357c4a1e1412b0a96c74703/skills/package-artifacts/SKILL.md",
+          "sha256_utf8": "84e3c2b4abb585e4b85dc4f4af5cb6ef3f5436c1e5ef7033c0a63cde9c714de3",
+          "characters": 2148,
+          "frontmatter": "name: package-artifacts\ndescription: Use when packaging the artifacts of a paper for submission — assembling everything promised in the manuscript plus the venue's badge and artifact-evaluation requirements.\nlicense: MIT"
+        },
+        {
+          "id": "manage-submission",
+          "path": "skills/manage-submission/SKILL.md",
+          "status": 200,
+          "source_url": "https://raw.githubusercontent.com/VincenzoImp/academic-research-skills/28a4f18e43ae5c086357c4a1e1412b0a96c74703/skills/manage-submission/SKILL.md",
+          "sha256_utf8": "8e3bdf46e0a3812107bf74a03b070c75afa491388fe84a5d15a4cc24e59dfd20",
+          "characters": 2061,
+          "frontmatter": "name: manage-submission\ndescription: Use when submitting a paper, recording decisions and reviews, drafting rebuttals and response letters, applying revisions, or preparing the camera-ready version.\nlicense: MIT"
+        }
+      ]
+    },
+    {
+      "repository": "jjfroehlich/agent-skills-for-academic-research",
+      "checked_date": "2026-10-07",
+      "default_branch": "main",
+      "commit_sha": "9b1b256e99055006725fe4c6b8f90d301ceef7b0",
+      "commit_source": "git ls-remote https://github.com/jjfroehlich/agent-skills-for-academic-research.git refs/heads/main",
+      "stars": 1,
+      "stars_display": "1",
+      "stats_note": "本子任务官方 GitHub 页面展示1 star、README列出10个技能；未取得API元数据。",
+      "selected_count": 4,
+      "verification": "逐条读取固定commit的raw SKILL.md，未执行上游内容",
+      "skills": [
+        {
+          "id": "data-visualization-and-figures",
+          "path": "skills/data-visualization-and-figures/SKILL.md",
+          "status": 200,
+          "source_url": "https://raw.githubusercontent.com/jjfroehlich/agent-skills-for-academic-research/9b1b256e99055006725fe4c6b8f90d301ceef7b0/skills/data-visualization-and-figures/SKILL.md",
+          "sha256_utf8": "6270fd0620d5f1a6ddfb45dcbdcac3e46c800296fff14fc3e3e2c85b1ca771db",
+          "characters": 7256,
+          "frontmatter": "name: data-visualization-and-figures\ndescription: \"Use only when the current request primarily requires unresolved judgment about how scientific evidence should be visually communicated in a scientific plot, table, image panel, figure, graphical abstract, or publication export. Reassess every turn; do not invoke or retain this skill merely because an earlier turn involved figure design. Trigger for choosing or critiquing chart form, encodings, uncertainty or replicate display, scales, axes, color accessibility, annotations, panel or page composition, typography, image channels, scale bars, or final-size readiness. A plot, PDF, report, or analysis script is not sufficient. Exclude source-code organization, report-generation plumbing, plotting syntax or debugging, and mechanical implementation, reruns, or validation of already-set visual specifications unless the current request reopens a visual-evidence decision. Prefer writing for prose-only legends and communication for talk or poster story and delivery.\"\nlicense: MIT\nmetadata:\n  author: jjfroehlich\n  version: \"0.1.0\""
+        },
+        {
+          "id": "grant-writing",
+          "path": "skills/grant-writing/SKILL.md",
+          "status": 200,
+          "source_url": "https://raw.githubusercontent.com/jjfroehlich/agent-skills-for-academic-research/9b1b256e99055006725fe4c6b8f90d301ceef7b0/skills/grant-writing/SKILL.md",
+          "sha256_utf8": "2d438dd3a2e6d1a6b87b689f363e0bf91d6437497fde67f6ff1b4bc2d3cb9e6e",
+          "characters": 4707,
+          "frontmatter": "name: grant-writing\ndescription: \"Use when the user is planning, drafting, revising, or reviewing a grant or fellowship application, including specific aims, project summaries, significance/innovation/approach sections, funder-fit checks, budget-feasibility alignment, risk/alternative plans, resubmissions, interviews, or reviewer-facing funding narratives. Trigger only when the artifact or decision is part of a funding mechanism; for manuscript peer review, journal submission, general prose editing, or career materials without a funding context, use a different skill.\"\nlicense: MIT\nmetadata:\n  author: jjfroehlich\n  version: \"0.1.0\""
+        },
+        {
+          "id": "research-strategy-and-project-design",
+          "path": "skills/research-strategy-and-project-design/SKILL.md",
+          "status": 200,
+          "source_url": "https://raw.githubusercontent.com/jjfroehlich/agent-skills-for-academic-research/9b1b256e99055006725fe4c6b8f90d301ceef7b0/skills/research-strategy-and-project-design/SKILL.md",
+          "sha256_utf8": "374a7a05bdf93c0b53be40b76504a9ad2243504b28f50ef6bf938059b891c250",
+          "characters": 5384,
+          "frontmatter": "name: research-strategy-and-project-design\ndescription: \"Use only when the current decision changes which scientific question, hypothesis, project direction, experimental program, or portfolio bet to pursue, pause, pivot, or stop. Do not use for updating an analysis plan, implementation roadmap, or work sequence inside a fixed project. Reassess every turn; earlier strategy work does not retain this skill. Exclude selecting datasets, annotations, predictors, features, models, statistical settings, analysis units, windows, thresholds, contrasts, estimands, controls, diagnostics, plots, or code—even when called a roadmap, strategy, next step, pivot, or go/no-go. Trigger for candidate ideas, new hypotheses, novelty/feasibility tradeoffs, decisive scientific uncertainties, de-risking experiments, kill criteria, and choices that materially change the scientific program or whether the project continues. Prefer scientific-feedback for holistic critique of an audience-facing research plan.\"\nlicense: MIT\nmetadata:\n  author: jjfroehlich\n  version: \"0.1.0\""
+        },
+        {
+          "id": "scientific-writing",
+          "path": "skills/scientific-writing/SKILL.md",
+          "status": 200,
+          "source_url": "https://raw.githubusercontent.com/jjfroehlich/agent-skills-for-academic-research/9b1b256e99055006725fe4c6b8f90d301ceef7b0/skills/scientific-writing/SKILL.md",
+          "sha256_utf8": "5fd7e86853d8a71031929eb1209307345904418ba8fd07058e4299f087086a7e",
+          "characters": 7023,
+          "frontmatter": "name: scientific-writing\ndescription: \"Use only when the primary requested output is audience-facing scientific prose or argument. Do not use for computational or analysis plans, pipeline or implementation documentation, README files, code comments, object or variable naming, or script terminology merely because they describe scientific work. Trigger for drafting, diagnosing, or revising manuscripts, theses, abstracts, introductions, results, discussions, conclusions, figure legends, contribution statements, acknowledgements, paper outlines, or reviewer-facing passages; and for section structure, flow, claim calibration, compression, or publication-ready wording. Technical source material qualifies only when transformed into an integrated reader-facing scientific argument. Prefer other skills for journal or reviewer-response strategy, grants, literature synthesis, slides or posters, or figure redesign.\"\nlicense: MIT\nmetadata:\n  author: jjfroehlich\n  version: \"0.1.0\""
+        }
+      ]
+    }
+  ]
+}
